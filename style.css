@@ -1,0 +1,37 @@
+body{
+  background-color: #eeeeee;
+  font-family: 'Abel';
+}
+
+.jumbotron {
+  font-family: 'Advent Pro';
+  background-color: black;
+  color: white;
+}
+
+.title{
+  font-size: 18px;
+  font-style: italic;
+  color: #331254;
+}
+.artist{
+  font-size: 16px;
+}
+
+.genre{
+  font-size: 12px;
+}
+
+.year{
+  font-family: 'Advent Pro';
+  color:  #2f2f2f;
+}
+
+
+.description{
+    margin: 10px;
+    color: #0f0f0f;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 18px;
+
+}
