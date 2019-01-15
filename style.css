@@ -2,6 +2,13 @@ body{
   background-color: #eeeeee;
   font-family: 'Abel';
 }
+
+@media print {
+    #tracklist {
+        display: none;
+    }
+}
+
 a:hover{
   color: #6C3398;
   text-decoration: none;
@@ -38,6 +45,7 @@ a:hover{
 
 .description{
     margin: 10px;
+    padding-top: 20px;
     color: #0f0f0f;
     font-family: 'Thasadith', sans-serif;
     font-size: 18spx;
@@ -61,16 +69,11 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.tracklist{
+#tracklist{
   text-align: center;
   padding-left: 60px;
 }
 
-#end-paragraph{
-  padding: 100px;
-  text-align: justify;
-  font-family: 'Thasadith', sans-serif;
-  color: Black;
-  font-size: 13px;
-
+#home{
+  padding-top: 10px;
 }
